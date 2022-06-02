@@ -19,7 +19,7 @@ morph_vocab = MorphVocab()
 syntax_parser = NewsSyntaxParser(emb)
 
 dirname = os.path.dirname(__file__)
-filename = os.path.join(dirname, 'Country_and_message1 not clean.json')
+filename = os.path.join(dirname, 'Country_and_message1 clean.json')
 
 sample_json = ''
 
