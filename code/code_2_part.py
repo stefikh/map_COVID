@@ -1,6 +1,5 @@
 import os
 import json
-import re
 from natasha import Segmenter, NewsEmbedding, NewsNERTagger, Doc, MorphVocab
 
 segmenter = Segmenter()
