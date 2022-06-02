@@ -1,12 +1,6 @@
 import os
 import json
 import re
-from natasha import Segmenter, NewsEmbedding, NewsNERTagger, Doc, MorphVocab
-
-segmenter = Segmenter()
-emb = NewsEmbedding()
-ner_tagger = NewsNERTagger(emb)
-morph_vocab = MorphVocab()
 
 dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, 'bbc.json')
