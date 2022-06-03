@@ -1,0 +1,6 @@
+re
+json
+natasha
+geopandas
+plotly
+pandas
