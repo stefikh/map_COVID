@@ -2,3 +2,4 @@ natasha
 geopandas
 plotly
 pandas
+deep_translator
