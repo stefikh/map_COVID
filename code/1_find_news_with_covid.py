@@ -14,7 +14,7 @@ glossary = json.loads(sample_json)
 covid_dict = {}
 for elem in glossary:
     text = str(glossary[elem])
-    if re.findall(r'[Cc]ovid|COVID|коронавирус|[Пп]андем[а-я]', text):
+    if re.findall(r'[Cc]ovid|COVID|[Кк]оронавирус[а-я]|[Пп]андем[а-я]', text):
         covid_dict[elem] = text
 with open ('Covid_dict.json', 'w', encoding="utf-8") as file:
     json.dump(covid_dict, file, ensure_ascii=False)
